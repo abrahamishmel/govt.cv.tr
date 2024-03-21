@@ -1,3 +1,62 @@
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+  }
+  .container {
+    text-align: center;
+    margin-top: 100px;
+   
+  }
+  .container .img {
+
+    width: 10px;
+   }
+   */
+
+  /* .logo {
+    max-width: 200px;
+   
+        width: 200px; 
+        height: auto;
+       */
+  /* }
+  .heading {
+    font-size: 34px;
+    margin-top: 40px;
+    margin-right: 32%;
+    color: #0bec95;
+    text-align: left; /* Set left alignment for paragraphs */
+   
+    /* width: 60%;
+    margin: 20px auto;
+    line-height: 1.6;
+    margin-left: 26%;
+
+  } 
+  .paragraph { */
+    /* width: 60%; */
+    /* margin: 20px auto;
+    line-height: 1.4;
+    text-align: left;  */
+    /* margin-left: 26%;
+     font-size: auto;
+  }
+  .bold-text {
+    font-weight: bold;
+    font-size: auto;
+  }
+
+
+  .center {
+    margin-right: 15%;
+      
+ }
+ */ */
+
+
 
 
  body {
@@ -43,7 +102,7 @@
   }
   
   .center {
-    margin-right: 15%;
+    margin-right: 17%;
   }
   
   @media only screen and (max-width: 600px) {
@@ -52,17 +111,24 @@
     }
   
     .logo {
-      width: 150px; /* Adjust size for smaller screens */
+      width: 100px; /* Adjust size for smaller screens */
     }
   
     .heading {
-      font-size: 24px;
+      font-size: 25px;
       margin-left: 10%;
-      width: 80%; /* Adjust width for smaller screens */
+      width: 40%; /* Adjust width for smaller screens */
     }
   
     .paragraph {
-      margin-left: 10%;
-      width: 80%; /* Adjust width for smaller screens */
+        font-size: 18px;
+      margin-left: 9%;
+      width: 98%; /* Adjust width for smaller screens */
     }
+
+    .bold-text {
+        font-weight: bold;
+        font-size: auto;
+      }
+      
   }
