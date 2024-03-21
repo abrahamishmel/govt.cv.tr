@@ -151,10 +151,10 @@ body {
     color: rgb(37, 36, 36);
   }
 
-  .card p {
-    font-size: 18px; /* Adjust font size for smaller screens */
-    overflow: hidden; /* Prevent text overflow */
-    white-space: nowrap; /* Prevent wrapping */
-    text-overflow: ellipsis; /* Add ellipsis if the text overflows */
+  .card h2 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+/*     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;  */
   }
   }
