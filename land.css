@@ -1,69 +1,68 @@
 
-body {
+
+ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #fefefe;
   }
+  
   .container {
     text-align: center;
     margin-top: 100px;
-   
   }
-  .container .img {
-
-    width: 10px;
-   }
   
-
   .logo {
     max-width: 200px;
-   
-        width: 200px; /* Set the width of the image */
-        height: auto; /* Maintain aspect ratio */
-      
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
   }
+  
   .heading {
     font-size: 34px;
     margin-top: 40px;
-    margin-right: 32%;
     color: #0bec95;
     text-align: left; /* Set left alignment for paragraphs */
-   
     width: 60%;
     margin: 20px auto;
     line-height: 1.6;
     margin-left: 26%;
-
-  } 
+  }
+  
   .paragraph {
-    /* width: 60%; */
     margin: 20px auto;
     line-height: 1.4;
     text-align: left; /* Set left alignment for paragraphs */
     margin-left: 26%;
-     font-size: auto;
+    font-size: auto;
   }
+  
   .bold-text {
     font-weight: bold;
     font-size: auto;
   }
-
-
+  
   .center {
-     margin-right: 15%;
-
-    /* width: 40%; */
-   
-    /* margin-top: 40px;
-    color: black;
+    margin-right: 15%;
+  }
   
+  @media only screen and (max-width: 600px) {
+    .container {
+      margin-top: 50px;
+    }
   
-    text-align: left;
-
-    width: 60%;
-    margin: 20px auto;
- 
-    margin-left: 26%; */
-      
- }
+    .logo {
+      width: 150px; /* Adjust size for smaller screens */
+    }
+  
+    .heading {
+      font-size: 24px;
+      margin-left: 10%;
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  
+    .paragraph {
+      margin-left: 10%;
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  }
