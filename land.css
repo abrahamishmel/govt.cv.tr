@@ -151,7 +151,7 @@ body {
     color: rgb(37, 36, 36);
   }
 
-  .card h4 {
+  .card h3 {
     font-size: 12px; /* Adjust font size for smaller screens */
     overflow: hidden; /* Prevent text overflow */
     white-space: nowrap; /* Prevent wrapping */
