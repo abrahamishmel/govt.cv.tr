@@ -1,3 +1,63 @@
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+  }
+  .container {
+    text-align: center;
+    margin-top: 100px;
+   
+  }
+  .container .img {
+
+    width: 10px;
+   }
+   */
+
+  /* .logo {
+    max-width: 200px;
+   
+        width: 200px; 
+        height: auto;
+       */
+  /* }
+  .heading {
+    font-size: 34px;
+    margin-top: 40px;
+    margin-right: 32%;
+    color: #0bec95;
+    text-align: left; /* Set left alignment for paragraphs */
+   
+    /* width: 60%;
+    margin: 20px auto;
+    line-height: 1.6;
+    margin-left: 26%;
+
+  } 
+  .paragraph { */
+    /* width: 60%; */
+    /* margin: 20px auto;
+    line-height: 1.4;
+    text-align: left;  */
+    /* margin-left: 26%;
+     font-size: auto;
+  }
+  .bold-text {
+    font-weight: bold;
+    font-size: auto;
+  }
+
+
+  .center {
+    margin-right: 15%;
+      
+ }
+ */ */
+
+
+
 
  body {
     margin: 0;
@@ -18,9 +78,9 @@
   }
   
   .heading {
-    font-size: 34px;
+    font-size: 32px;
     margin-top: 40px;
-    color: #0bec95;
+    color: #0ebb79;
     text-align: left; /* Set left alignment for paragraphs */
     width: 60%;
     margin: 20px auto;
@@ -33,9 +93,19 @@
     line-height: 1.4;
     text-align: left; /* Set left alignment for paragraphs */
     margin-left: 26%;
-    font-size: auto;
+    font-size: 15px;
+  }
+  .card {
+    background-color: #fbf9f9(246, 246, 246);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(77, 77, 77, 0.015);
   }
   
+  .card h2 {
+    margin: 0;
+  }
+
   .bold-text {
     font-weight: bold;
     font-size: auto;
@@ -43,6 +113,8 @@
   
   .center {
     margin-right: 17%;
+    color: rgba(68, 66, 66, 0.773);
+    font-size: 18px;
   }
   
 
@@ -73,9 +145,9 @@
         font-size: auto;
       }
        
-center {
+  .center {
     margin-left: 5.5%;
-    font-size: 11px;
+    font-size: 12px;
     color: rgb(37, 36, 36);
   }
   }
