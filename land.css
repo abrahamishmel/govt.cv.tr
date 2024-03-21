@@ -152,7 +152,7 @@ body {
   }
 
   .card h3 {
-    font-size: 12px; /* Adjust font size for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
     overflow: hidden; /* Prevent text overflow */
     white-space: nowrap; /* Prevent wrapping */
     text-overflow: ellipsis; /* Add ellipsis if the text overflows */
